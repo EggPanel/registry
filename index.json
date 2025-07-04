@@ -1,0 +1,36 @@
+{
+  "generated_at": "2025-07-04T00:00:00Z",
+  "nests": [
+    {
+      "slug": "minecraft",
+      "title": {
+        "en": "Minecraft",
+        "zh": "我的世界"
+      },
+      "description": {
+        "en": "Official Minecraft server templates",
+        "zh": "官方我的世界服务器模板"
+      },
+      "eggs": [
+        {
+          "nest_slug": "minecraft",
+          "egg_slug": "vanilla_1_16_5",
+          "version": "1.16.5",
+          "runtime": "docker",
+          "image": "eclipse-temurin:17-jre",
+          "package_url": "https://github.com/EggRegistry/eggs/raw/refs/heads/main/Vanilla-release-1.16.5-1b557e7b.jar",
+          "sha256": "",
+          "price": 0,
+          "title": {
+            "en": "Vanilla 1.16.5",
+            "zh": "原版 1.16.5"
+          },
+          "description": {
+            "en": "Vanilla Minecraft server jar 1.16.5 (build 1b557e7b).",
+            "zh": "我的世界原版服务器 1.16.5 (构建 1b557e7b)。"
+          }
+        }
+      ]
+    }
+  ]
+} 
