@@ -29,7 +29,7 @@
         "1.16.5": {
           "runtime": "docker",
           "image": "eclipse-temurin:17-jre",
-          "package_url": "https://github.com/EggRegistry/eggs/raw/refs/heads/main/Vanilla-release-1.16.5-1b557e7b.jar",
+          "package_url": "https://github.com/EggRegistry/eggs/raw/refs/heads/main/minecraft/je/vanilla/1.16.5/1.16.5.zip",
           "sha256": "",
           "price": 0,
           "title": {
