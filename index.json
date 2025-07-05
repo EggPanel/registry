@@ -42,6 +42,28 @@
           }
         }
       }
+    },
+    "variables": {
+      "EULA": {
+        "description": {
+          "en": "Accept Minecraft EULA (TRUE / FALSE)",
+          "zh": "同意 Minecraft EULA（TRUE / FALSE）"
+        },
+        "default": "FALSE",
+        "rules": "required|in:TRUE,FALSE",
+        "user_viewable": true,
+        "user_editable": true
+      },
+      "MAX_PLAYERS": {
+        "description": {
+          "en": "Maximum simultaneous players",
+          "zh": "最大玩家数量"
+        },
+        "default": "20",
+        "rules": "required|numeric|min:1|max:100",
+        "user_viewable": true,
+        "user_editable": true
+      }
     }
   }
 } 
